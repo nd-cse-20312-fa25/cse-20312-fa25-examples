@@ -22,5 +22,5 @@ int main() {
     printf("      &GLOBAL: %p,        GLOBAL: %f\n",  &GLOBAL, GLOBAL);
     printf("    str_const: %p,    *str_const: %c\n",  str_const, *str_const);
     puts("----------------------------code----------------------------");
-    printf("         main: %p,         *main: 0x%x\n", main, (unsigned char)(*main));
+    printf("         main: %p,         *main: 0x%x\n", main, *(unsigned char*)(main));
 }
