@@ -25,6 +25,7 @@ int main() {
     p_ptr->age  = 21;
 
     // Print the sizes of the structs
+    // Compiler sometimes adds padding for memory alignment
     printf("sizeof(p):      %lu\n", sizeof(p));
     printf("sizeof(*p_ptr): %lu\n", sizeof(*p_ptr));
 
