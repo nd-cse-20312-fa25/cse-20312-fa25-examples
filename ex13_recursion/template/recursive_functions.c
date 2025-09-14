@@ -48,7 +48,8 @@ int linear_search(int *numbers, int high, int key) {
 }
 
 int binary_search(int *numbers, int low, int high, int key) {
-   if (low > high)
+    // TODO: fix condition
+    if (1)
       return -1;
 
    int mid = (low + high) / 2;
