@@ -14,7 +14,7 @@ y3 = data[:, 3]
 y4 = data[:, 4]
 y5 = data[:, 5]
 
-# Plot all three lines
+# Plot lines
 plt.plot(x, y1, label='selection', marker='o')
 plt.plot(x, y2, label='insertion', marker='s')
 plt.plot(x, y3, label='insertion improved', marker='s')
