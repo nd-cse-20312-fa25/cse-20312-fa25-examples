@@ -26,6 +26,7 @@ int table_lookup(Table *t, char *key) {
     // TODO: Look for the key in the bucket's chain of pairs
     // and return value if you find it.
 
+    // Return -1 if key is not found
     return -1;
 }
 

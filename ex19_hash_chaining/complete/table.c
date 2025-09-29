@@ -32,6 +32,7 @@ int table_lookup(Table *t, char *key) {
         }
     }
 
+    // Return -1 if key is not found
     return -1;
 }
 
