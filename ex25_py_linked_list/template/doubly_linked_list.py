@@ -11,6 +11,8 @@
 # Magic methods:
 # - DoublyLinkedList.__str__
 # - DoublyLinkedList.__bool__
+# - DoublyLinkedList.__iter__
+# - DoublyLinkedList.__next__
 
 class Node:
     # Constructor for a node with data
@@ -109,14 +111,11 @@ class DoublyLinkedList:
     # Initialize the iterator state
     # Supports the syntax:  for data in dll:
     def __iter__(self):
-        self.iter_state = self.head.next
-        return self
+        # TODO:
+        pass
     
     # Return the next data from the iterator
     # Supports the syntax:  for data in dll:
     def __next__(self):
-        if self.iter_state == self.tail:
-            raise StopIteration
-        data = self.iter_state.data
-        self.iter_state = self.iter_state.next
-        return data
+        # TODO:
+        pass
